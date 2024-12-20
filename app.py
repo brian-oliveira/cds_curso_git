@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from src.extraction import load_data
 
 st.set_page_config(layout='wide')
@@ -65,6 +66,5 @@ def create_answers_section(df):
     st.subheader("Are the company that has the most expensive bikes registered also the company with the most bikes registered?")
 
     st.subheader("Which bikes are good for buying?")
-    
     
     return None
